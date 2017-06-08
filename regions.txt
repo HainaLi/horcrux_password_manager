@@ -1,0 +1,1 @@
+{"U.S.":"us-east-1", "U.S.":"us-east-2","U.S.":"us-west-1","U.S.":"us-west-2","West":"ca-central-1","West":"eu-central-1","West":"eu-west-1","West":"eu-west-2","World":"sa-east-1","World":"ap-northeast-2","World":"ap-southeast-1","World":"ap-southeast-2","World":"ap-northeast-1" }
