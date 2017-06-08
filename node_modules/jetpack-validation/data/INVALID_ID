@@ -1,0 +1,15 @@
+A valid identification must be defined in `package.json` to be
+able to be installed by Firefox. Adding a `name` field to the
+`package.json` works as identification, or an `id` property that
+is formatted as a GUID or address, like:
+
+  '{930a4f32-54e4-109c-929b-9209abc8de4f}'
+  'myextension@jetpack'
+  'wonderfuladdon@example.jetpack.org'
+
+IF MOVING FROM CFX: The cfx tool adds `@jetpack` to your `id` field
+if invalid -- to transition to jpm, adding `@jetpack` will fix the issue,
+and also retain the same ID used on AMO.
+
+More information on valid IDs can be at the following URL:
+https://developer.mozilla.org/en-US/Add-ons/Install_Manifests#id

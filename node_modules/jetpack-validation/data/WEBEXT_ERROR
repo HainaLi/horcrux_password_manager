@@ -1,0 +1,5 @@
+Both "package.json" and "manifest.json" files found in the add-on root dir.
+
+If the add-on is a WebExtension, you should use web-ext instead of jpm for building and signing your add-on XPI file:
+
+- https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext

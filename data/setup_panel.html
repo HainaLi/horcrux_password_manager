@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	Welcome to Horcrux Password Manager
+  </head>
+
+  <body style="color:red; background-color:black">
+    <h2>Set up keystores!</h2>
+    <p> 
+    See our README for AWS and Azure account creation details and keystore setup. After completing that, use an offline text editor to format your keystore credentials as a JSON string to use with Horcrux.   
+    <br>
+   The format is as follows: 
+    {"accessKeyId1":"actual access key ID goes here","secretAccessKey1":"actual secret key goes here","region1":"one of AWS regions, e.g. eu-central-1","accessKeyId2":"second keystore access id","secretAccessKey2":"another secret access key","region2":"a different jurisdiction"} and so forth.
+    </p>
+    <form id="master_password_form">
+      <label>configJSON</label>
+    	<input maxlength="10000" id="configJSON_input"></input>
+      <br>
+      <label>Master Password</label>
+      <input id="master_password_input"></input>
+      <input id="master_password_submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>

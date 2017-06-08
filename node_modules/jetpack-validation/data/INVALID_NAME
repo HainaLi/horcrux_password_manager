@@ -1,0 +1,4 @@
+The `name` field in `package.json` should contain only lowercase
+alphanumeric characters, underscore, dot, or dashes, and cannot
+start with an underscore or dash, to be compatible with npm
+naming conventions.

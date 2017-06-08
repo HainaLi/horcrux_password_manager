@@ -1,0 +1,2 @@
+Either a `title` or `name` property should be specified in `package.json`
+as the addon's displayable name on AMO.
