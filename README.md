@@ -1,3 +1,7 @@
+We thank Samuel Hanvron for coming with the name Horcrux and his contributions to the design and implementation (including the instructions below).
+
+This code is a command line research prototype aimed to explore password manager designs and to understand trusted components. It's not for personal use. 
+
 # Horcrux Walkthrough
 
 Welcome! This repository is home to Horcrux, a password manager which does not
